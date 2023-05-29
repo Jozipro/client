@@ -14,17 +14,17 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Passionné d'informatique depuis l'adolescence, je me donne à présent les moyens de vivre ma passion et de vous satisfaire",
+
     highlights: {
       bullets: [
-        "Full Stack web and mobile development",
-        "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Mnanagement",
-        "Building REST API",
-        "Managing database",
+        "Développement Full Stack Web et Mobile",
+        "React et React Native",
+        "Optimisation du code Redux",
+        "Créations de REST API",
+        "Gestion des Bases de Données",
       ],
-      heading: "Here are a Few Highlights:",
+      heading: "Quelques connaissances techniques:",
     },
   };
   const renderHighlight = () => {
@@ -42,7 +42,10 @@ export default function AboutMe(props) {
       id={props.id || ""}
     >
       <div className="about-me-parent">
-        <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
+        <ScreenHeading
+          title={"A mon propos"}
+          subHeading={"Pourquoi me chosir ?"}
+        />
         <div className="about-me-card">
           <div className="about-me-profile"></div>
           <div className="about-me-details">
@@ -61,10 +64,10 @@ export default function AboutMe(props) {
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
                 {" "}
-                Hire Me{" "}
+                Me contacter{" "}
               </button>
-              <a href="cv-jo.pdf" download="cv-jo.pdf">
-                <button className="btn highlighted-btn">Get Resume</button>
+              <a href="cv-boschi.pdf" download="cv-boschi.pdf">
+                <button className="btn highlighted-btn">Mon CV</button>
               </a>
             </div>
           </div>

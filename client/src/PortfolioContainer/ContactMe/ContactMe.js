@@ -66,11 +66,17 @@ export default function ContactMe(props) {
 
   return (
     <div className="main-container fade-in" id={props.id || ""}>
-      <ScreenHeading subHeading={"Lets Keep In Touch"} title={"Contact Me"} />
+      <ScreenHeading
+        subHeading={"N'hésitez pas à m'écrire"}
+        title={"Contact"}
+      />
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+            <Typical
+              loop={Infinity}
+              steps={["Pour en savoir plus... 📧", 9000]}
+            />
           </h2>{" "}
           <a href="https://web.facebook.com/?_rdc=1&_rdr">
             <i className="fa fa-facebook-square" />
@@ -90,12 +96,11 @@ export default function ContactMe(props) {
         </div>
         <div className="back-form">
           <div className="img-back">
-            <h4>Send Your Email Here!</h4>
             <img src={imgBack} alt="image not found" />
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nom</label>
             <input type="text" onChange={handleName} value={name} />
 
             <label htmlFor="email">Email</label>
@@ -106,7 +111,7 @@ export default function ContactMe(props) {
 
             <div className="send-btn">
               <button type="submit">
-                send
+                Envoyer
                 <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
