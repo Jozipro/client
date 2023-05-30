@@ -36,7 +36,6 @@ router.post("/contact", (req, res) => {
   };
 
   smtpTransporter.sendMail(mailOptions, (error) => {
-    // ???
     try {
       if (error)
         return res.status(400).json({ msg: "Merci de remplir les champs." });
