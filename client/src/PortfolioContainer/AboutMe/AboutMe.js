@@ -21,7 +21,7 @@ export default function AboutMe(props) {
         "Développement Full Stack Web et Mobile",
         "React et React Native",
         "Optimisation du code Redux",
-        "Créations de REST API",
+        "Création de REST API",
         "Gestion des Bases de Données",
       ],
       heading: "Quelques connaissances techniques:",
