@@ -78,20 +78,11 @@ export default function ContactMe(props) {
               steps={["Pour en savoir plus... 📧", 9000]}
             />
           </h2>{" "}
-          <a href="https://web.facebook.com/?_rdc=1&_rdr">
-            <i className="fa fa-facebook-square" />
+          <a href="https://www.linkedin.com/in/jonathan-boschi-0a744b136/">
+            <i className="fa fa-linkedin-square" />
           </a>
-          <a href="#">
-            <i className="fa fa-google-plus-square" />
-          </a>
-          <a href="https://www.instagram.com/instructor_ehizeex/">
-            <i className="fa fa-instagram" />
-          </a>
-          <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-            <i className="fa fa-youtube-square" />
-          </a>
-          <a href="https://twitter.com/Ehiedu_baba">
-            <i className="fa fa-twitter" />
+          <a href="https://github.com/Jozipro">
+            <i className="fa fa-github-square" />
           </a>
         </div>
         <div className="back-form">
