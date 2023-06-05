@@ -10,17 +10,11 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="#lienAMettre">
-                <i className="fa fa-facebook-square"></i>
+              <a href="https://www.linkedin.com/in/jonathan-boschi-0a744b136/">
+                <i className="fa fa-linkedin-square" />
               </a>
-              <a href="lienAMettre">
-                <i className="fa fa-google-plus-square"></i>
-              </a>
-              <a href="lienAMettre">
-                <i className="fa fa-instagram-square"></i>
-              </a>
-              <a href="lienAMettre">
-                <i className="fa fa-twitter-square"></i>
+              <a href="https://github.com/Jozipro">
+                <i className="fa fa-github-square" />
               </a>
             </div>
           </div>
